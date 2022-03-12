@@ -1,0 +1,931 @@
+--Common Button
+ホーム=首页
+戻る=返回
+いいえ=No
+はい=Yes
+名前=Name
+デフォルト=Default
+--決定=Accept
+キャンセル=取消
+閉じる=close
+次へ=Next
+やめる=Stop
+戻る=返回
+デフォルト=Default
+--決定=Accept
+
+--Start Text
+キャッシュクリア=清除数据
+機種変更はこちら=机种变更
+(なるほど……)=(原來如此…)
+
+--Update
+【データ更新のお知らせ】アップデートのため、本日14:00頃にデータ更新が発生いたします。予めご了承ください。=【數據更新通知】今天14:00左右會進行數據更新。 請見諒。
+
+--Download
+データのインストールをしますか?\n<color%3Dred>※差分確認のため、時間がかかる事があります</color>=是否下載全部數據?\n<color%3Dred>※正在確認差异，這將會花費一些時間</color>
+いいえを選択しても、ゲームプレイは可能となり\n必須データはこの場で、必要データは随時インストールされます=選擇否也可以進行遊戲\n必要數據將在此處隨時安裝
+※通信量が多くなるため、Wi-Fi環境推奨=※由于數據比較大，建議在Wi-Fi環境下進行
+sr:"約(?<num_i>.+)MBダウンロードします"="約 ${num_i}MB 下載"
+必要データが端末に無い場合\n随時ダウンロードされます=如果終端上沒有必要的數據\n將隨時下載
+
+sr:"ダウンロードサイズが約(?<num_i>[0-9]+)MBあります\nインストールしますか？"="下載大小約為 <color%3Dred>${num_i}</color> MB\n是否下載?"
+インストールが完了しました=下載完成
+
+
+--Common Text
+必要数=必要數
+アニマ=動畫
+ゴールド=黃金
+解析でんち=解析電池
+ギアメダル=齒輪徽章
+スカウトポイント=星探點
+キャンセル=取消
+--決定=决定
+ボトムス=Bottom
+トップス=Top
+戻る=返回   
+--確定=確定
+やりなおす=重做
+クリップボードにコピーしました=複製到剪貼板
+
+所持していません=所持為0
+表示するキャラがいません=沒有要顯示的角色
+
+
+--Days Left for events
+sr:"あと (?<num_i>[0-9]+)(?<time>.+)"="之後${num_i} ${time}"
+sr:"あと (?<num_i>[0-9]+)時間"="${num_i}時間"
+
+sr:"残り(?<num_i>[0-9]+)(?<time>.+)"="時間${num_i} ${time}"
+
+sr:"^(?<num_i>[0-9]+)日"="${num_i}日"
+
+--Item name user
+
+sr:"^【(?<actress>[^【】]+) 専用】(?<after>[^【】]+)"="【專用 ${actress}】\n${after}"
+
+時間=時間
+日=日
+分=分
+専用=專用
+
+
+--Simplified Menu 
+ゴールド又はアニマの所持数が上限の為\n新しく取得した場合は自動的に破棄されます=黃金或anima的持有數已達上限\n新獲得的將會自動廢棄
+アニマが所持上限に達したため\n超過分は破棄されました=因為Anima已達持有上限\n因此額外的部分被廢棄了
+シェルの所持数が上限の為\nバトル中にシェルを獲得できません=殼的持有數已達上限\n因此在戰鬥中不會獲得殼
+ミッション報酬を獲得しました\n"スカウトポイント" ×2=獲得任務報酬\n"星探點" x 2
+ミッションコンプリート報酬を獲得しました\n"スカウトポイント" ×3=任務完成後獲得了報酬\n"星探點" x 3
+報酬を獲得しました\n"アニマ" ×2000=獲得報酬"Anima" x 2000
+
+sr:"報酬を獲得しました\n"(?<name>.+)" ×(?<num_i>[0-9,]+)"="獲得報酬\n"${name}" x ${num_i}"
+
+sr:"スカウトポイントゲット！ (?<num1_i>[0-9]+)/100\n(?<after>[\s\S]+)"="得到星探點！${num1_i}/100\n${after}"
+sr:".(?<Quest>.+). \+(?<num2_i>[0-9]+)pt"=""${Quest}" + ${num2_i}pt"
+この任務では選択できません=無法選擇該任務
+
+ゴールド所持上限が増加しました=黃金持有上限增加
+アニマ所持上限が増加しました=Anima持有上限增加
+フォロー上限数が増加しました=好友數量上限增加
+シェル所持上限が増加しました=貝殼持有上限增加
+
+--Home menu 
+新着エピソード=新故事
+救助要請=請求協助
+コスチューム=衣服
+
+-rescue request
+救援要請=救援請求
+ルーム選択=房間選擇
+更新=更新
+検索中=搜索中
+１周だけ=只有1周
+参加条件を満たしていません=不滿足參加條件
+接続失敗=鏈接失敗
+
+
+-Costume 
+アクセキャパ=Acc. cap
+
+-present
+所持数：=加速電容器
+プレゼントする数を選んでください=請選擇要送禮的數量
+プレゼント=禮物
+
+sr:"エピソード\n【 "(?<episode>.+)"】\nが解放されました"="Episode\n【"${episode}】\n被釋放了"
+
+-Episode 
+エピソード一覧=小插曲一覽
+絆エピソード=羈絆小插曲
+キャラエピソード=角色小故事
+履歴書=履歷書
+sr="^・★(?<num1_i>[0-9]+) (?<name>.+)Lv.(?<num2_i>[0-9]+)$"="・★${num1_i} ${name} Lv.${num2_i}"
+
+-mission menu from home 
+特別任務=特別任務
+
+--Menu
+称号=称号
+サポーター=支援者
+隊長の誕生日=队长的生日
+{{A}}の誕生日={{A}}的生日
+sr:"(?<month_i>[0-9]+)月(?<day_i>[0-9]+)日"="${month_i}月${day_i}日"
+累計ログイン日数=累計登入
+ボーナス履歴=登入活動
+習熟訓練=熟練訓練
+
+アイテム=道具
+オプション=選項
+ヘルプ=求助
+実績=實際成果
+フレンド=朋友
+受取箱=領取箱
+ショップ=商店
+お知らせ=通知
+メニュー=選項
+アクセサリ=附件
+--素材=素材
+
+--設定=設定
+その他=其他
+
+-change title
+表示する称号を選択してください=請選取称号
+--称号変更=稱號變更
+
+-Rename
+※最大8文字=※最多8個字符
+名前変更=重命名
+
+-Change Description
+※最大40文字=※最多40個字符
+コメント変更=変更
+
+キャラクター選択=角色選擇
+
+-support Reward (daily reset)
+サポート報酬=支援報酬
+sr:"サポート回数 : (?<num1_i>[0-9]+)\n獲得ゴールド : (?<num2_i>[0-9]+)"="${num1_i}\n獲得黃金${num2_i}"
+
+-Gacha
+--所持=所持
+--詳細=Detail
+--交換品詳細=Exch. details
+提供割合=提供概率
+アクセサリーチケットについて=關於首飾券
+スタープロムナード=星際序曲
+スペシャル=特別篇
+1回=1次
+ニュートラルシールド=中性遮罩
+2回=2次
+3回=3次
+★4キャラ1人確定！　※このスカウトはスカウトレベルに影響しません=確定1個4★角色！※ 這種星探不會影響星探等級 
+
+sr:"＜【Lv.(?<num1_i>[0-9]+)】(?<Quest>.+)＞\nスカウトカード を (?<num2_i>[0-9]+) 枚\n消費して実行します\nよろしいですか？"=【Lv.${num1_i}】${Quest}\n星探卡${num2_i}消耗一張\n可以嗎？
+【10回＋1回スカウト】時は★3以上のキャラ1人確定！=【10+1次星探】時確定1個3★以上的角色！
+
+長押しで確定=長按確定
+この結果で確定します\nよろしいですか？=確定這個結果\n可以嗎？
+
+--Inbox
+一括受け取り=接受全部
+受け取る=接受
+
+sr:"受け取り期限：あと(?<num_i>[0-9]+)(?<after>[\s\S]+)"="接收期限${num_i} ${after}後"
+sr:"アイテム有効期限：あと(?<num_i>[0-9]+)(?<after>[\s\S]+)"="項目有效期${num_i} ${after}後"
+sr:"受け取り可能な項目が (?<num_i>[0-9]+) 件あります"="有${num_i}個可接受的項目"
+最終結果を見る=看最終結果
+画面を押すと次へ進みます=請點擊畫面繼續
+※すでに取得していた場合、特典アイテムが貰えます=※已經取得的情况下，可以獲得優惠項目
+
+-get scout tick
+スカウトカードについて=About Scout Card
+sr:"スカウトカードGETまで\n残り(?<num_i>[0-9]+)ポイント"=${num_i} points remaining \nuntil you get scout card
+sr:"(?<year_i>[0-9]+)年(?<month_i>[0-9]+)月(?<day_i>[0-9]+)日(?<hour_i>[0-9]+)時(?<minute_i>[0-9]+)分まで有効"=Valid until ${hour_i}:${minute_i} on ${day_i}/${month_i}/${year_i}
+
+--BD setting
+
+上記内容に同意し設定を変更する=同意上述協議並更改設定
+※「{{A}}の誕生日」は何度でも変更が可能です=※{{A}}的生日可以多次更改
+「{{A}}」の誕生日を設定するものであり、\nお客様ご自身の誕生日を設定するものでは\nございません。\nまた、設定内容はゲームサーバーに保存され\nないため、複数端末をご利用の場合、端末毎に\n設定する必要がございます。=設定{{A}}的生日,不是客人自己的生日。\n此外，由於設定結果不保存在服務器上。\n因此使用多個終端時，需要對終端重新設定。
+{{A}}の誕生日設定={{A}}的生日設定
+{{A}}の誕生日を設定してください=請設定{{A}}的生日
+
+--Login Bonus 
+sr:"開催期間：(?<num1_i>[0-9]+)年 (?<num2_i>[0-9]+)月 (?<num3_i>[0-9]+)日  (?<num4_i>[0-9:]+) まで"="Period : Until ${num3_i}-${num2_i}-${num1_i} at ${num4_i}"
+差出人：AEGiS=寄信人：AEGiS
+件名：{{A}}への特別ボーナス={{A}}的特別獎金
+件名：{{A}}へのサポート=對{{A}}的支持
+件名：{{A}}の来訪者へ={{A}}給來訪者
+--差出人：未来ガジェット研究所=From: Future Gadget Lab
+10日目=Day 10
+9日目=Day 9
+8日目=Day 8
+7日目=Day 7
+6日目=Day 6
+5日目=Day 5
+4日目=Day 4
+3日目=Day 3
+2日目=Day 2
+1日目=Day 1
+
+--Shop
+--必要=Need
+--在庫=Qty.
+--無制限=∞
+交換する=交換
+まとめて交換=統一交換
+※所持数が足りません=※所持數量不足 
+既に所持しています=已持有
+ギア進化素材=齒輪進化素材
+
+--交換確認=Exchange confirmation
+ギフトークン=Gift token
+
+sr:"(?<num_i>[0-9]+)件のアイテムを交換します\nよろしいですか？"=是否交換${num_i}個道具?
+
+--sr:"(?<name1>.[^0-9]+)(?<num1_i>[0-9]+)個消費して\n(?<name2>.+)(?<num2_i>[0-9]+)個交換します"=Use ${num1_i} ${name1} and\n exchange for ${num2_i} [${name2}]
+sr:"(?<name>.+)×(?<num_i>[0-9]+)"=${name}×${num_i}
+sr:"(?<name>.+)［×(?<num_i>[0-9]+)］"=${name}［×${num_i}］
+sr:"※(?<num_i>[0-9]+)回交換できます"=※${num_i}次可交換
+
+--Multiplayer 
+-AEGiS合同指定任務-=-AEGiS聯合指定任務-
+マルチ=協力
+--相互検索=Search Mutual
+--ID検索=ID search
+おすすめマッチング=推薦匹配
+--報酬一覧=List of rewards
+指定なし=隨機
+ルームを作成する=創建房間
+ランダムマッチング=隨機匹配
+
+ルーム条件設定=房間條件設定
+
+--条件設定=房間條件設定
+
+プレイ傾向=遊戲傾向
+上級者募集=高級招募
+初心者歓迎=歡迎初學者
+
+--周回の有無=Lap Type
+--周回希望=Multiple Run
+--1周だけ=Only Once
+
+-Room Creation
+作成=創建
+救援要請募集傾向=招募救援傾向
+ID検索のみ=僅ID檢索
+相互検索のみ=僅相互検索
+入室条件=入室條件
+プレイヤーレベル=玩家級別
+同じくらい=相當
+自分より下=比自己低
+ルーム作成=創建房間
+救援要請一言=救援請求一句話
+※最大20文字=※最多20個字符
+
+-in room 
+--任務変更=Mission
+--条件変更=Cond.
+--解散=Disband
+
+スタンプ選択中=正在選擇印章
+シェル解析中=貝殼解析中
+キャラ設定中=角色設定中
+ルームを解散しますか？=是否解散房間嗎？
+ルームを解散しました=房間已解散
+画面をタップすると再接続します=點擊畫面後重新連接
+
+
+準備完了ボタンを押してください=請按準備完成按鈕
+隊長たちに準備完了を呼びかけました=向隊長們呼籲準備完畢
+募集中のルームが見つかりませんでした=找不到招募中的房間
+ルームが見つかりません=找不到房間
+ルームから退室しますか？=您要離開房間嗎？
+ルームから退室しました=已退出房間
+--救援要請中=Requesting Assistance
+--確認中=Checking
+リザルト中=In result screen
+
+ホストがルームを解散しました=房主解散了房間
+ネットワークエラー=網絡錯誤
+
+-end of multi mission
+秒でもどります=秒返回
+
+
+--Mission
+専用チームで登場するキャラクターは\nスカウトした際と能力が異なる場合があります=Characters appearing in the dedicated team\nmay have different abilities when scouted
+注意=Caution
+初回報酬=First\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n   Rewards
+サポーターなし=Without supporters
+
+
+--in Mission
+やり直す=Start over
+あきらめる=Give up
+ボーナス=Bonus
+シェル=Shell
+目標達成=Goal Achieved
+ターゲットをサーチ=Searching target
+
+経過報告=Progress report
+
+警告=Warning
+
+
+「やり直す」と\nこれまでに獲得したアイテムを失い\n最初のエリアから再開となりますが\nよろしいですか？=If you "Start Over", you will lose the items you have acquired so far and you will restart from the first area.\nAre you sure ?
+「あきらめる」と\nこれまでに獲得したアイテムを失い\n任務失敗となりますが、よろしいですか？=If you "Give up", you will lose the items you have acquired so far, and you will fail your mission.\nAre you sure ?
+
+「あきらめる」か「やり直す」と\n下記の獲得アイテムを失います=If you "Give up" or "Start Over",\nyou will lose the items below
+
+sr:"任務時間：残り(?<num_i>[0-9]+)秒"=Mission time: ${num_i} seconds remaining
+
+--Mission result
+ファン数=Fans
+結果報告=Result report
+
+報酬=Rewards
+入手シェル=Obtained shell
+ミッション=Missions
+
+
+をフォローしますか？=Do you want to follow?
+をフォローしました=Has been followed
+サポートしてくれた=Support
+
+-Sorting
+適用中=Applied
+▼降順=▼ Desc.
+▲昇順=▲ Asc.
+ソート=Sort
+並び替え=Sort Order
+
+取得日時=By Date
+ファン増加=Fans
+信頼度=Trust
+スピード=Speed
+防御力=Defense
+近接攻撃力=Melee Atk.
+射撃攻撃力=Range Atk.
+レベル=Level
+イベント=Events
+任務=Mission
+お気に入り以外=Not Favorited
+お気に入り=Favorited 
+
+その他フィルタ=Other Filters
+未使用=none
+
+--Collab filter --
+{{A}} コズミックリベレーション={{A}} Cosmic Revelation
+ダライアス コズミックリベレーション=Darius Cosmic Revelation
+プロジェクト東京ドールズ=Project Tokyo Dolls
+デスクトップアーミー=Desktop Army
+バトルガール ハイスクール=Battle Girl High School
+ストライクウィッチーズ=Strike Witches
+メガミデバイス=Megami Device
+フレームアームズ・ガール=Frame Arms Girl
+
+属性=Attribute
+攻撃力=Atk. Power
+レアリティ=Rarity
+ギア種別=Gear type
+
+-Filter
+フィルタ=Filter
+フィルター=Filters
+特殊ギア=Special G.
+通常ギア=Normal G.
+進化可否=Evolve G.
+ロック中=Locked
+
+
+--Mission
+推奨=Rec
+チーム編成=Team
+
+
+--AnalyzeUI
+でんち所持数=Qty.
+一括で今すぐ充電=Bulk Charge
+まで= 
+充電完了= Complete
+※所持数が限界に達しているため、新たなシェルを入手できません=* Shell storage full, new drops restricted
+所持数=Qty.
+解析依頼=Analyze
+一括売却=Bulk sale
+一括充電ボーナス=Bulk Charge bonus
+充電中=Charging
+あと=After
+今すぐ充電=Charge now
+シェル解析結果=Shell Analysis result
+sr:"(?<num1_i>[0-9]+)個のシェルを売却し\n(?<num2_i>[0-9]+)ゴールドを入手しました"="Sold ${num1_i} shells for ${num2_i} gold"
+売却できるまで= Sell unlocked
+
+全てのシェルを一括で売却します\nよろしいですか？\n※30分経過するまで、次回の売却ができません=Are you sure you want to sell all shells at once? \n* The next sale cannot be done\nuntil 30 minutes have passed.
+
+シェルを一括売却する=Bulk Sell Shells
+
+確認=Verification
+カラット=Carat
+でんち=Battery
+
+ロック=Lock
+ロック解除= Unlock
+ロックしました=Locked
+ロックを解除しました=Unlocked
+シェルを所持していません=No Shell
+
+-regex
+sr:"^(?<num_i>[0-9]+)時間"="${num_i}H"
+sr:"^(?<num1_i>[0-9]+)時間(?<num2_i>[0-9]+)分"="${num1_i}H ${num2_i}M"
+sr:"^(?<num_i>[0-9]+)分"="${num_i}M"
+
+
+sr:"^【(?<num_i>[0-9]+)分】(?<after>.+)"="【<color%3D#e24856>${num_i}</color> Min.】${after}"
+
+sr:"^残り充電時間は合計で\nあと (?<num1_i>[0-9]+)分 です\n\n<color%3D#e24856>(?<num2_i>[0-9]+)</color>カラットまたは解析でんち<color%3D#ff0000>(?<num3_i>[0-9]+)</color>個を\n消費して、依頼できるようにしますか？\n（所持カラット数：(?<num5_i>[0-9]+)　所持でんち数：(?<num6_i>[0-9]+)）"=${num1_i} minutes total charging time left\n\nUse <color%3D#ff0000>${num2_i}</color> Carats or <color%3D#ff0000>${num3_i}</color> Battery\nWould you like to pay and request it? \n(Carats Qty: ${num5_i}, Battery Qty: ${num6_i})
+sr:"^残り充電時間は合計で\nあと (?<num1_i>[0-9]+)分 です\n\n<color%3D#ff0000>(?<num2_i>[0-9]+)</color>カラットまたは解析でんち<color%3D#ff0000>(?<num3_i>[0-9]+)</color>個を\n消費して、依頼できるようにしますか？\n（所持カラット数：(?<num5_i>[0-9]+)　所持でんち数：(?<num6_i>[0-9]+)）"=${num1_i} minutes total charging time left\n\nUse <color%3D#ff0000>${num2_i}</color> Carats or <color%3D#ff0000>${num3_i}</color> Battery\nWould you like to pay and request it? \n(Carats Qty: ${num5_i}, Battery Qty: ${num6_i})
+sr:"^獲得 (?<num_i>[0-9]+) ゴールド"="Earn ${num_i} Gold"
+sr:"^解析でんちを(?<num_i>[0-9,]+)個消費して\n解析依頼できるようになりました"="Charged analysis slot\nby using <color%3D#ff0000>${num_i}</color> battery\nNow you can now request analysis again"
+sr:"^一括解析したので充電にかかる時間が\n<color%3D#3f58d9ff>(?<num_i>[0-9,]+)%</color>短縮されました"="Bulk Analyzed\nCharge time decreased by <color%3D#3f58d9ff>${num_i}%</color>"
+
+--Team Management Menu
+キャラ一覧=Character Select
+ギア整備室= Gear M.Room
+チーム管理=Team Management
+属性値=Attr.
+属性値：=Attr:
+上限解放=Limit Brk.
+所属数=Aff.
+キャパ=Cap.
+
+強化=S+
+まで強化=Level
+強化開始=Strengthen
+強化完了=Strengthening completed
+これ以上強化できません=Can't be enhanced any more
+得意ギア：=Main Gear:
+得意属性：=Main Attr:
+装備中のギア/コスチューム=Gear / Costume equipped
+SPスキル=SP skill
+SPゲージ=SP gauge
+ギアスキル=Gear skills
+パッシブスキル=Passive skills
+回数：=Count:
+回数=Count  
+スキル=Skill
+変更=Change
+スキル詳細=Skill details
+進化=Evo
+得意属性=Strong attribute
+得意=Good at
+
+sr:"(?<num_i>[0-9]+)秒間"="${num_i} Sec."
+
+既に他のキャラクターが使用中です=Already used by another character
+sr:"^すでに(?<actress>.+)が装備しています\n付け替えてよろしいですか？"="It's already equipped on\n[${actress}]\nAre you sure you\nwant to change it?"
+
+新規習得パッシブスキル=Newly acquired passive skills
+
+（対象キャラクターから装備が外れます）=(Current gears will be removed)
+※他キャラクター装備中のギアが含まれています※=*Includes gears equipped with other characters*
+装備を変更します、よろしいですか？=Change equipment, are you sure?
+
+
+SP発動中はアクティブスキルが下記に入れ替わる=While SP is active, active skills are replaced by the following
+※上記はSPに準じアクティブスキルに干渉するスキル効果は作用しない=The above does not apply to skill effects that interfere with active skills.
+
+--Evolution 
+ギア整備室-進化=Gear Maintenance Room-Evolution
+進化するギアを選択してください=Choose an evolvable gear
+装備中のキャラはいません=No character is selected
+決 定=Select
+進化ツリー=Evolution tree
+アップグレードする=Upgrade
+全体的に調整をほどこしたアップグレード版\nレベル上限が引き上げられている=Upgraded level cap have been raised with overall adjustments
+本来保持されている機能を最大限に発揮するために\n機能拡張と再調整が行われたエンハンスモデル\n（この進化でレベル上限は変化しません）=Enhanced model that has been expanded and re-adjusted to maximize the originally retained function (the level upper limit does not change with this evolution)
+アレンジする=Arrange
+※LVが不足しているため進化できません=* Cannot evolve due to lack of level
+
+
+火力=Firepower
+射程=Range
+連射性能=Rapid fire
+必要素材=Required materials
+速度性能=Speed ​​performance
+最大HP=Maximum HP
+攻撃速度=Attack speed
+制空範囲=Air control range
+
+
+
+機能換装=Function Replace
+基本型=Basic
+機能拡張=Enhanced
+武装換装=Retrofit
+改良型=Improved
+試作型=Prototype
+強化型=Reinforced
+プロト=Proto
+テスト=Test
+カスタム=Custom
+アナザー=Another
+
+
+-3DModels
+ギアを装備しましょう=Equip gear
+キャラ変更=Sw. Chara
+ギア変更=Sw. Gear
+スキル名スキル名=Skill name skill name
+
+-Gear Maintenance Room
+ギア所持数=Gear Qty.
+ボトムス=Bottom
+トップス=Top
+クロス=Close
+ショット=Shot
+装備中=Equipped
+
+ロックされているため\n選択できません=Cannot be selected \n because it's locked 
+
+-frame expansion
+枠拡張する=+Slot
+枠拡張=Slot expansion
+sr:"※最大(?<num_i>[0-9]+)枠まで拡張できます"=* Expandable up to ${num_i} Slot
+カラットを消費して\nギア所持枠を5枠単位で拡張します=Consumes carats and expands gear inventory by 5
+
+-sell
+
+★3以上のレアリティのギアが含まれています\n\n本当によろしいですか？=Contains gears that are ★3 or more \n\nAre you really sure?
+sr:"選択中のギアをまとめて売却しますか？\n獲得：(?<num1_i>.+)メダル　/　<color%3D#585858>(?<num2_i>.+)</color>ゴールド"="Would you like to sell all the selected gears? \nAqcuire: ${num1_i} medals / <color%3D#585858>${num2_i}</color> Gold"
+ギアを売却しました=Gears has been sold
+
+
+-- Gacha UI
+スカウト=Scout
+服袋＆イベ=Clothes bag & Event
+服袋セレクト=Clothes bag select
+服袋コレクション=Clothing bag collection
+コスチューム交換=Costume exchange
+アクセサリー=Accessories
+
+-- Buy UI
+おまけ=Bonus
+購入=Buy
+DMMポイント=DMM points
+
+おまけのカラットとアイテムは無償アイテムとなります=Bonus carats and items will be free items
+カラット購入=Buy Carat
+(834個+<color%3D#ff8a00ff>おまけ166個</color>)=(834 +<color%3D#ff8a00ff>166 extra</color>)
+カラット  1000個=1000 cts
+新服袋=New clothes bag
+(438個+<color%3D#ff8a00ff>おまけ87個</color>)=(438 +<color%3D#ff8a00ff>87 extra</color>)
+カラット  525個=525 carats
+(202個+<color%3D#ff8a00ff>おまけ21個</color>)=(202 +<color%3D#ff8a00ff>21 extra</color>)
+カラット  223個=223 carats
+カラット  102個=102 carats
+カラット  51個=51 carats
+カラット  10個=10 carats
+個= 
+
+資金決済法第13条に基づく表示=Display based on Article 13 of the Fund Settlement Act
+特定商取引法に基づく表記=Notation based on Specified Commercial Transaction Law
+カラット利用規約=Carat Terms of Use
+
+---Setting UI
+
+低=Low
+最適=Med
+高=High
+
+-Sound Tabs
+サウンド関連=Sound related
+
+ボイス音量=Voice volume
+SE音量=SE volume
+BGM音量=BGM volume
+
+
+-Graphic Tabs
+グラフィック関連=Graphic related
+フルスクリーン（Alt+Enter）=Full screen (Alt + Enter)
+解像度=Resolution
+アンチエイリアス-ホーム=Antialiasing-Home
+アンチエイリアス-バトル=Antialiasing-Battle
+アンチエイリアス-マルチ=Antialiasing-Multi
+ポストフィルター=Post-Processing Filter
+ポストフィルタ=Post-Processing Filter
+
+-Battle Tabs
+バトル関連=Battle related
+
+ボタン配置設定=Button layout setting
+各持ち手は「ターゲット切り替えボタン」が\n「1⇒下部」/「2⇒上部」に変更されます\n「カスタム」を選択すると\nボタン配置が自由にカスタマイズ出来ます=L ⇒ Left Hand, R ⇒ Right Hand.\n\nTarget Switch Button placement : \n"1⇒Bottom" / "2⇒Top" 
+右手1=R 1
+右手2=R 2
+左手1=L 1
+左手2=L 2
+カスタム1=Custom 1
+カスタム2=Custom 2
+カスタム3=Custom 3
+カスタム4=Custom 4
+
+カメラ距離=Camera distance
+遠=Far
+中=Med
+近=Near
+
+セミオート操作=Semi-auto operation
+画面内/外ロック切替ボタン表示=Switch button for in/out screen lock
+セミオート時のターゲット自由変更機能=Free switch target function\nduring semi-auto
+オート近接攻撃モード=Auto melee attack mode
+押した敵にターゲットを切り替える=Switch target by clicking on enemy
+
+ダメージ表示設定=Damage display setting
+全て ：自/他プレイヤーを表示\n一部 ：自プレイヤーのみを表示\n非表示：自/他プレイヤーを非表示=All: Show own / other player \nPart: Show only own player \nHide: Hide own / other player
+
+全て=All
+一部=Part
+非表示=Hide
+
+
+移動操作感度=Move operation sensitivity
+バトルボタンの反応速度向上=Improved reaction speed of battle buttons
+バトル一時停止中のカメラモード有効化=Enable camera mode in battle
+
+
+-Home Tabs
+ホーム関連=Home related
+ホーム画面に表示するアクトレス数=       Number of actresses \ndisplayed on the home screen
+ホーム画面に表示するアクトレスを\nチーム１のメンバーと同期する=Synchronize the actress displayed \non the home screen with the members \nof Team 1
+字幕表示=Subtitle display
+
+-Scenario Tabs
+シナリオ関連=Scenario related
+AUTOの進行速度=AUTO progress speed
+速い=Fast
+普通=Med
+遅い=Slow
+
+-Random Equip Tabs
+おまかせ装備関連=Random equipment related
+対象キャラ=Target character
+個別=Single
+チーム=Team
+装備中のギアを検索に含める=Include equipped gears in the search
+確認表示=Confirmation display
+
+-Window Tabs
+ウィンドウ関連=Window related
+スカウトポイント獲得簡易表示=Simplify Scout points acquisition display
+報酬獲得簡易表示=Simplify Rewards display
+ゴールド/アニマ所持上限警告簡易表示=Simplify Gold/Anima limit warning display
+シェル所持上限警告簡易表示=Simplify Shell limit warning display
+
+
+-Gamepad Tab
+ゲームパッド関連=Gamepad related
+アナログスティックの感度=Analog stick sensitivity
+Xinputを有効=Enable Xinput
+軸の遊び=Axis play
+決定ボタンの位置を反転=Invert the position of the confirm button
+OFF：Aボタンで決定\nON：Bボタンで決定=OFF: Confirm by the A button \nON: Confirm by the B button
+仮想カーソルの自動非表示=Auto hide virtual cursor
+仮想カーソルの感度=Virtual cursor sensitivity
+仮想カーソルの移動速度=Virtual cursor\nNormal movement speed
+仮想カーソルの高速移動速度=Virtual cursor\nFast movement speed
+
+-Experimental Tab
+実験的機能=Experimental function
+バトル操作時のセミオートとマニュアルを統合=Integrated semi-auto and manual for \nbattle operation
+パッド操作時のフリック入力補正無効化=Disabling flick input correction \nwhile using gamepad
+<color%3Dred>※セミオート操作設定無効</color>=<color%3Dred>* Semi-auto operation setting disabled</color>
+リフレッシュレート制限解除=Unlock Refresh rate
+タイトル画面のみ消音=Mute Title Screen
+シナリオ中の高速再生ボタンを有効=Enable fast play button during scenario
+ホームのカメラ操作を反転させる=Invert Home Camera Control
+キーバインド=Key binding
+ダークモード=Dark mode
+Web表示モード2=Web display mode 2
+<color%3Dred>※高負荷 お知らせが表示されない場合に利用</color>=<color%3Dred>※Use this in case web notice not loaded</color>
+ゴールド/アニマ所持上限警告を非表示=Hide gold/anima possession limit warning
+
+インストールデータの整理=Organize the installation data
+
+-Keybinding
+
+移動=Move
+この項目を変更するとキーボードの\nキーバインド設定が変更されます。=Changing this item will change \nthe keyboard key binding settings.
+移動モード=Move mode
+ターゲット切替：左=Switch target: left
+ターゲット切替：右=Switch target: right
+ギアスキル：トップス=Gear skill: Top
+ギアスキル：ボトムス=Gear skill: Bottom
+画面内ターゲット切替=In-screen target switch
+メンバー交代2=Member change 2
+メンバー交代1=Member change 1
+サポーターコール=Supporter call
+攻撃：クロスギア=Attack: Close Gear
+攻撃：ショットギア=Attack: Shot gear
+通常移動設定=Default movement setting
+低速=Low speed
+高速=High speed
+低速移動=Slow move
+高速移動=Fast move
+このボタンを押しながら移動を行うと\nブースト消費をしない通常の移動を行います\n\n=If you move while pressing this button, \nyou will perform a normal move without boost consumption\n\n
+このボタンを押しながら移動を行うと\nブースト消費をして高速の移動を行います\n\n=If you move while pressing this button, \nit will do boost consumption and you will move at high speed\n\n
+キーバインド設定を保存しました=Saved key binding settings
+
+
+ゲームパッド=Game pad
+キーボード=keyboard
+
+割当解除=Unbind
+設定するキーを入力してください=Enter the key to set
+キーバインドを初期状態に戻しますか？=Do you want to return the key bindings to the initial state?
+入力したキー：=Entered key:
+キーが重複しています=Key already used
+sr:"既に【(?<key1>.+)】で使用されています\n【(?<key2>.+)】を解除しますか？"= Key already used in 【${key1}】\nDo you want to unbind 【${key2}】 ?
+
+-Misc Tab
+使いすぎストッパー=Overusage stopper
+ご家族安心設定=Family security setting
+画面押下時エフェクト表示=Effect display when the screen is pressed
+ゲームパッド接続時の仮想カーソル有効=Enable virtual cursor when \nconnecting to a gamepad
+起動時のフルインストール確認=Full installation confirmation at startup
+
+-Buttons
+データインストール=Data installation
+引き継ぎIDとパスワードを登録=Register takeover ID and password
+タイトルに戻る=Return to title
+
+
+タイトルに戻りますか？=Do you want to go back to the title?
+
+オプション設定を保存しました=Option settings saved
+
+
+-- control layout
+保存=Save
+初期化=Default
+バトル画面カスタマイズ=Battle screen customization
+HPゲージ=HP gauge
+ボトムススキルボタン=Bottom's skill button
+SPスキルボタン=SP skill button
+トップススキルボタン=Top's skill button
+カメラモード=Camera mode
+メンバー交代ボタン1=Member change button 1
+メンバー交代ボタン2=Member change button 2
+他プレイヤー3ステータス=Other player 3 status
+他プレイヤー2ステータス=Other player 2 status
+他プレイヤー1ステータス=Other player 1 status
+サポーターボタン=Supporter button
+近接攻撃ボタン=Melee attack button
+ターゲット切り替えボタン=Target switch button
+変更を保存しますか？=Do you want to save your changes?
+ボタン配置を初期状態に戻しますか？=Do you want to return the button layout to the initial state?
+
+-- Camera layout
+
+コンティニュー=Continue
+カーソルキー＝カメラ移動\nShift/Ctrl＝ズームイン/アウト=Cursor key %3D Move camera  Shift/Ctrl %3D zoom in/out
+
+明るさ・コントラスト=Brightness / Contrast
+明るさ=Brightness
+コントラスト=Contrast
+ガンマ補正=Gamma \n      correction
+
+色調変換=Color tone conversion
+全体=General
+明るい所=Bright
+中間=Mid
+暗い所=Dark
+
+ブルーム=Bloom
+強さ=Strength
+ブラー=Blur
+シャープフィルタ=Sharp filter
+しきい値=Threshold
+
+ビネット=Vignette
+色収差=Chromatic\n   Aberration
+サイズ=Size
+
+
+比較（明）=Comparison (bright)
+比較（暗）=Comparison (dark)
+フィルム粒子=Film grain
+カメラ傾斜=Camera tilt
+
+アクトレスの無敵エフェクト=Actress invincible effect
+内部解像度=Internal\n   resolution
+
+解像度が巨大なため、フィルターは無効になります=Filter is disabled due to huge resolution
+
+
+スクリ―ンショットを作成中…=Taking screenshots ...
+
+中止する=Abort
+
+ファイルサイズ=File size
+スクリーンショットを保存しました=Screenshot Saved
+
+-- Account 
+引き継ぎID入力=Input takeover ID
+引き継ぎIDで引き継ぎ=Take over with takeover ID
+パスワードをお忘れの方=Forgot password
+パスワードを再発行します\n下記からお問い合わせください=We will reissue the password \nPlease contact us from the following
+お問い合わせ=Contact Us
+
+パスワードを入力=Enter password
+パスワード=Password
+引き継ぎIDを入力=Enter the takeover ID
+引き継ぎID=Takeover ID
+引き継ぎIDとパスワードを入力してデータを引き継ぎます=Enter the transfer ID and password \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nto transfer the data
+データ引き継ぎ=Data transfer
+
+月=Month
+年=Year
+西暦=AD
+ゲーム内で設定した誕生年月=Birth date set in the game
+現在のプレイヤーレベル※必須=Current player level * Required
+プレイヤー名(ゲーム内で使用していたもの)※必須=Player name (the one used in the game) * Required
+ゲームを開始した日=First played time date
+最後にログインした日時=Date and time of last login
+利用されていた端末=Terminal (Phone Model) used
+送信=Send
+
+
+-
+パスワード（確認）=Confirm Password
+※パスワードは英数字が混在した状態で\n６文字以上、１２文字未満で入力して下さい=* Enter the password with \nmore than 6, less than 12 character,\n with mixed alphanumeric characters.
+パスワードを設定してください\n次の画面で引き継ぎIDが発行されます\nパスワードを忘れないよう、ご注意下さい=Please set a password.\nThe next screen will issue a transfer ID.\nBe careful not to forget your password.
+
+sr:"引き継ぎIDの再発行は\n(?<date>.+)以降まで出来ません"="You cannot reissue your takeover ID until \n${date}"
+
+
+--Follower 
+フォロワー=Follower
+フォロー=Follow
+▼新着順=▼Newest
+▼オンライン=▼Online
+▼レベル=▼Level
+▲レベル=▲Level
+▲オンライン=▲Online
+▲新着順=▲Newest
+
+sr:"オフライン：(?<num_i>[0-9]+)日"=Offline: ${num_i} d. ago
+sr:"オフライン：(?<num_i>[0-9]+)日前"=Offline: ${num_i} d. ago
+sr:"オフライン：(?<num_i>[0-9]+)時間前"=Offline: ${num_i} h. ago
+sr:"オフライン：(?<num_i>[0-9]+)分前"=Offline: ${num_i} m. ago
+
+
+フォロー数=Follows
+フォロワー数=Followers
+フレンドを追加する=Add friends
+名前検索=Name search
+フレンド追加=Add friend
+オンライン=Online
+オンライン中=Online
+新着順=Newest
+
+フォロワー解除=Un-Follower
+フォロー解除=Unfollow
+フォローする=Follow
+メッセージ=Message
+プレイヤー詳細=Player details
+っしゃーせー=Reply
+検索する=Search
+※相互フォローになるとメッセージが利用できます=* Message is available when you follow each other.
+メッセージ内容を運営が確認する場合があります=The administrator may confirm the message contents
+メッセージを入力=Enter message
+※最大32文字=* Maximum 32 characters
+
+フォロワーを解除しました=Follower status removed
+フォローを解除しました=Unfollowed
+フォロワーを解除します\nよろしいですか？=Remove follower\nIs it OK?
+フォローを解除します\nよろしいですか？=Unfollow\nIs it OK?
+
+
+--Training
+ターゲットを複数表示=Show multiple targets
+SPスキル自動回復=SP Skill Auto Recovery
+習熟訓練を終了しますか？=Do you wish to complete your proficiency training?
+近接戦闘ナビゲーター=Close Quarter Battle Navigator
+終了=Exit
+
+
+--story
+リプレイしますか？=Do you want a replay?
+
+
+--event unlock
+sr:"(?<month_i>[0-9]+)/(?<day_i>[0-9]+) (?<hour_i>[0-9]+):(?<minute_i>[0-9]+)から開催"="Open at ${month_i}/${day_i} - ${hour_i}:${minute_i}"
+
+
+
+

@@ -1,0 +1,90 @@
+[Message:   BepInEx] BepInEx 5.4.19.0 - alice_main (2022/3/9 18:29:30)
+[Info   :   BepInEx] Running under Unity v2018.4.36.7132039
+[Info   :   BepInEx] CLR runtime version: 4.0.30319.17020
+[Info   :   BepInEx] Supports SRE: False
+[Info   :   BepInEx] System platform: Bits64, Windows
+[Message:   BepInEx] Preloader started
+[Info   :   BepInEx] Loaded 1 patcher method from [BepInEx.Preloader 5.4.19.0]
+[Info   :   BepInEx] 1 patcher plugin loaded
+[Info   :   BepInEx] Patching [UnityEngine.CoreModule] with [BepInEx.Chainloader]
+[Message:   BepInEx] Preloader finished
+[Message:   BepInEx] Chainloader ready
+[Message:   BepInEx] Chainloader started
+[Info   :   BepInEx] 7 plugins to load
+[Info   :   BepInEx] Loading [AGA TL Fixer 1.0]
+[Info   :   BepInEx] Loading [AGA Full Size Collab 1.0]
+[Info   :   BepInEx] Loading [AGA Uncensor 1.0]
+[Info   :   BepInEx] Loading [XUnity Auto Translator 5.0.0]
+[Warning:XUnity.AutoTranslator] Image not loaded (unmodified): F:\dmm\alicegearaegisexe\BepInEx\Translation\zh-tw\Texture\mp stamp\multStamp_002 [116CAACCA3-96EA185039].png.
+[Warning:XUnity.AutoTranslator] Image not loaded (unmodified): F:\dmm\alicegearaegisexe\BepInEx\Translation\zh-tw\Texture\mp stamp\multStamp_020 [F337CA820A-06393AAC18].png.
+[Info   :XUnity.AutoTranslator] Loaded XUnity.AutoTranslator into Unity [2018.4.36f1] game.
+[Info   :   BepInEx] Loading [XUnity Resource Redirector 2.0.0]
+[Info   :   BepInEx] Loading [Runtime Unity Editor 2.6.1]
+[Info   :   BepInEx] Loading [I18NFont4UnityGame 1.0]
+[Message:   BepInEx] Chainloader startup complete
+[Warning:Runtime Unity Editor] Vectrosity.dll is not available, drawing gizmos will be disabled
+[Warning:Runtime Unity Editor] Failed to load REPL - void UnityEngine.UnityAPICompatibilityVersionAttribute..ctor(string,string[])
+[Info   :I18NFont4UnityGame] Loaded I18NFont4UnityGame Plugin.
+[Info   :XUnity.AutoTranslator] Skipping plugin scan because no plugin-specific translations has been registered.
+[Info   :XUnity.AutoTranslator] Completed: 'ライバルの新型装備' => 'ライバルの新型装備'
+[Info   :XUnity.AutoTranslator] Completed: 'TODAYフラッシュ　　　' => 'TODAYフラッシュ　　　'
+[Info   :XUnity.AutoTranslator] Completed: 'アクトレス業界最新情報' => 'アクトレス業界最新情報'
+[Info   :XUnity.AutoTranslator] Completed: '『TODAYフラッシュ』の
+お時間です
+' => '『TODAYフラッシュ』のお時間です
+'
+[Info   :XUnity.AutoTranslator] Completed: '{{A}}が
+お伝えします
+' => '{{A}}が
+お伝えします
+'
+[Info   :XUnity.AutoTranslator] Completed: '最初のニュースは
+叢雲工業の
+新型装備の話題です
+' => '最初のニュースは叢雲工業の新型装備の話題です
+'
+[Info   :XUnity.AutoTranslator] Completed: '叢雲工業、武器・装備の新モデルを発表' => '叢雲工業、武器・装備の新モデルを発表'
+[Info   :XUnity.AutoTranslator] Completed: 'アリスギアの新境地を開くか？　　　　' => 'アリスギアの新境地を開くか？　　　　'
+[Info   :XUnity.AutoTranslator] Completed: '叢雲工業は本日
+武器と装備の
+新モデルを発表しました
+' => '叢雲工業は本日武器と装備の新モデルを発表しました
+'
+[Info   :XUnity.AutoTranslator] Completed: '先進技術と現行技術' => '先進技術と現行技術'
+[Info   :XUnity.AutoTranslator] Completed: '鈴木 有人' => '鈴木 有人'
+[Info   :XUnity.AutoTranslator] Completed: '成子坂製作所・メンテナンスエリア' => '成子坂製作所・メンテナンスエリア'
+[Info   :XUnity.AutoTranslator] Completed: 'うわーん、整備長
+鬼畜眼鏡がいじめるよー
+' => 'うわーん、整備長鬼畜眼鏡がいじめるよー
+'
+[Info   :XUnity.AutoTranslator] Completed: 'けーん!' => 'けーん!'
+[Info   :XUnity.AutoTranslator] Completed: 'ワルフラーンアヴァタ' => 'ワルフラーンアヴァタ'
+[Info   :XUnity.AutoTranslator] Completed: '默翎' => '默翎'
+[Info   :XUnity.AutoTranslator] Completed: 'と' => 'と'
+[Info   :XUnity.AutoTranslator] Completed: 'bga（︶︿︶）=凸' => 'bga（︶︿︶）=凸'
+[Info   :XUnity.AutoTranslator] Completed: '凸' => '凸'
+[Info   :XUnity.AutoTranslator] Completed: 'も' => 'も'
+[Info   :XUnity.AutoTranslator] Completed: 'や' => 'や'
+[Info   :XUnity.AutoTranslator] Completed: '行' => '行'
+[Info   :XUnity.AutoTranslator] Completed: 'わ' => 'わ'
+[Info   :XUnity.AutoTranslator] Completed: 'え' => 'え'
+[Info   :XUnity.AutoTranslator] Completed: 'げ' => 'げ'
+[Info   :XUnity.AutoTranslator] Completed: 'つ' => 'つ'
+[Info   :XUnity.AutoTranslator] Completed: '為' => '為'
+[Info   :XUnity.AutoTranslator] Completed: 'いともたやすく行われるえげつない行為' => 'いともたやすく行われるえげつない行為'
+[Info   :XUnity.AutoTranslator] Completed: 'パーティー効果発動' => 'パーティー効果発動'
+[Info   :XUnity.AutoTranslator] Completed: '再観測中' => '再観測中'
+[Info   :XUnity.AutoTranslator] Completed: '想定外の{{A}}反応を検知' => '想定外の{{A}}反応を検知'
+[Info   :XUnity.AutoTranslator] Completed: 'パーフェクトを達成しました' => 'パーフェクトを達成しました'
+[Info   :XUnity.AutoTranslator] Completed: 'シェルを入手しました' => 'シェルを入手しました'
+[Info   :XUnity.AutoTranslator] Completed: 'ヘルファイア' => 'ヘルファイア'
+[Info   :XUnity.AutoTranslator] Completed: '宛先：成子坂製作所' => '宛先：成子坂製作所'
+[Info   :XUnity.AutoTranslator] Completed: '過去の栄光' => '過去の栄光'
+[Info   :XUnity.AutoTranslator] Completed: 'ミッションクリア報酬' => 'ミッションクリア報酬'
+[Info   :XUnity.AutoTranslator] Completed: 'ミッションコンプ報酬' => 'ミッションコンプ報酬'
+[Info   :XUnity.AutoTranslator] Completed: '成子坂製作所・事務所' => '成子坂製作所・事務所'
+[Info   :XUnity.AutoTranslator] Completed: 'それにしても
+叢雲工業って
+お金ありますね
+' => 'それにしても叢雲工業ってお金ありますね
+'
